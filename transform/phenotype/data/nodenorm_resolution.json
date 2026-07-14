@@ -1,0 +1,1050 @@
+{
+  "C535456": {
+    "id": "MONDO:0009813",
+    "label": "chronic recurrent multifocal osteomyelitis"
+  },
+  "C535932": {
+    "id": "MONDO:0100429",
+    "label": "intrahepatic cholestasis of pregnancy"
+  },
+  "D000067877": {
+    "id": "MONDO:0005258",
+    "label": "autism spectrum disorder"
+  },
+  "D000072657": {
+    "id": "MONDO:0041656",
+    "label": "ST-elevation myocardial infarction"
+  },
+  "D000077274": {
+    "id": "MONDO:0015459",
+    "label": "nasopharyngeal carcinoma"
+  },
+  "D000080223": {
+    "id": "MONDO:0850230",
+    "label": "chronic urticaria"
+  },
+  "D000080343": {
+    "id": "HP:0025610",
+    "label": "Posterior blepharitis"
+  },
+  "D000083242": {
+    "id": "HP:0002140",
+    "label": "Ischemic stroke"
+  },
+  "D000086382": {
+    "id": "MONDO:0100096",
+    "label": "COVID-19"
+  },
+  "D000092122": {
+    "id": "MONDO:0958127",
+    "label": "transplant-related bronchiolitis obliterans"
+  },
+  "D000094630": {
+    "id": "HP:0004933",
+    "label": "Ascending aortic dissection"
+  },
+  "D000152": {
+    "id": "MONDO:0011438",
+    "label": "acne"
+  },
+  "D000163": {
+    "id": "MONDO:0012268",
+    "label": "AIDS"
+  },
+  "D000172": {
+    "id": "MONDO:0019933",
+    "label": "acromegaly"
+  },
+  "D000437": {
+    "id": "MONDO:0002046",
+    "label": "alcohol abuse"
+  },
+  "D000506": {
+    "id": "MONDO:0005340",
+    "label": "alopecia areata"
+  },
+  "D000544": {
+    "id": "MONDO:0004975",
+    "label": "Alzheimer disease"
+  },
+  "D000562": {
+    "id": "MONDO:0005644",
+    "label": "amebiasis"
+  },
+  "D000690": {
+    "id": "MONDO:0004976",
+    "label": "amyotrophic lateral sclerosis"
+  },
+  "D000855": {
+    "id": "MONDO:0005351",
+    "label": "anorexia nervosa"
+  },
+  "D000856": {
+    "id": "MONDO:0005351",
+    "label": "anorexia nervosa"
+  },
+  "D001064": {
+    "id": "MONDO:0005649",
+    "label": "appendicitis"
+  },
+  "D001068": {
+    "id": "MONDO:0005451",
+    "label": "eating disorder"
+  },
+  "D001171": {
+    "id": "MONDO:0011429",
+    "label": "juvenile idiopathic arthritis"
+  },
+  "D001172": {
+    "id": "MONDO:0008383",
+    "label": "rheumatoid arthritis"
+  },
+  "D001249": {
+    "id": "MONDO:0004979",
+    "label": "asthma"
+  },
+  "D001281": {
+    "id": "MONDO:0004981",
+    "label": "atrial fibrillation"
+  },
+  "D001289": {
+    "id": "MONDO:0005302",
+    "label": "attention deficit hyperactivity disorder, inattentive type"
+  },
+  "D001523": {
+    "id": "MONDO:0002025",
+    "label": "psychiatric disorder"
+  },
+  "D001528": {
+    "id": "MONDO:0007191",
+    "label": "Behcet disease"
+  },
+  "D001656": {
+    "id": "MONDO:0008867",
+    "label": "biliary atresia"
+  },
+  "D001661": {
+    "id": "MONDO:0005304",
+    "label": "biliary tract neoplasm"
+  },
+  "D001714": {
+    "id": "MONDO:0004985",
+    "label": "bipolar disorder"
+  },
+  "D001765": {
+    "id": "MONDO:0005673",
+    "label": "blind loop syndrome"
+  },
+  "D001932": {
+    "id": "MONDO:0001657",
+    "label": "brain cancer"
+  },
+  "D001943": {
+    "id": "MONDO:0021100",
+    "label": "breast neoplasm"
+  },
+  "D002169": {
+    "id": "MONDO:0005688",
+    "label": "campylobacteriosis"
+  },
+  "D002292": {
+    "id": "MONDO:0005086",
+    "label": "renal cell carcinoma"
+  },
+  "D002446": {
+    "id": "MONDO:0005130",
+    "label": "celiac disease"
+  },
+  "D002532": {
+    "id": "MONDO:0005291",
+    "label": "brain aneurysm"
+  },
+  "D002543": {
+    "id": "MONDO:0013792",
+    "label": "intracerebral hemorrhage"
+  },
+  "D002544": {
+    "id": "MONDO:0002679",
+    "label": "cerebral infarction"
+  },
+  "D002583": {
+    "id": "MONDO:0000751",
+    "label": "cervical polyp"
+  },
+  "D002769": {
+    "id": "MONDO:0012672",
+    "label": "cholelithiasis"
+  },
+  "D002779": {
+    "id": "MONDO:0001751",
+    "label": "cholestasis"
+  },
+  "D002780": {
+    "id": "MONDO:0019072",
+    "label": "intrahepatic cholestasis"
+  },
+  "D002921": {
+    "id": "MONDO:0005594",
+    "label": "severe cutaneous adverse reaction"
+  },
+  "D003015": {
+    "id": "MONDO:0024388",
+    "label": "Clostridium infectious disease"
+  },
+  "D003093": {
+    "id": "MONDO:0005101",
+    "label": "ulcerative colitis"
+  },
+  "D003111": {
+    "id": "MONDO:0021400",
+    "label": "polyp of colon"
+  },
+  "D003248": {
+    "id": "MONDO:0002203",
+    "label": "constipation disorder"
+  },
+  "D003324": {
+    "id": "MONDO:0005010",
+    "label": "coronary artery disorder"
+  },
+  "D003327": {
+    "id": "MONDO:0005010",
+    "label": "coronary artery disorder"
+  },
+  "D003397": {
+    "id": "MONDO:0018907",
+    "label": "craniopharyngioma"
+  },
+  "D003424": {
+    "id": "MONDO:0005011",
+    "label": "Crohn disease"
+  },
+  "D003480": {
+    "id": "MONDO:0018912",
+    "label": "Cushing syndrome"
+  },
+  "D003550": {
+    "id": "MONDO:0009061",
+    "label": "cystic fibrosis"
+  },
+  "D003863": {
+    "id": "MONDO:0002050",
+    "label": "depressive disorder"
+  },
+  "D003865": {
+    "id": "MONDO:0002009",
+    "label": "major depressive disorder"
+  },
+  "D003876": {
+    "id": "MONDO:0004980",
+    "label": "atopic eczema"
+  },
+  "D003882": {
+    "id": "MONDO:0016367",
+    "label": "dermatomyositis"
+  },
+  "D003920": {
+    "id": "MONDO:0005015",
+    "label": "diabetes mellitus"
+  },
+  "D003922": {
+    "id": "MONDO:0005147",
+    "label": "type 1 diabetes mellitus"
+  },
+  "D003924": {
+    "id": "MONDO:0005148",
+    "label": "type 2 diabetes mellitus"
+  },
+  "D003928": {
+    "id": "MONDO:0005016",
+    "label": "diabetic kidney disease"
+  },
+  "D003930": {
+    "id": "MONDO:0005266",
+    "label": "diabetic retinopathy"
+  },
+  "D003967": {
+    "id": "MONDO:0001673",
+    "label": "diarrheal disease"
+  },
+  "D004066": {
+    "id": "MONDO:0004335",
+    "label": "digestive system disorder"
+  },
+  "D004238": {
+    "id": "MONDO:0004235",
+    "label": "diverticulitis"
+  },
+  "D004392": {
+    "id": "MONDO:0009876",
+    "label": "isolated growth hormone deficiency type IA"
+  },
+  "D004402": {
+    "id": "MONDO:0009131",
+    "label": "Riley-Day syndrome"
+  },
+  "D004415": {
+    "id": "MONDO:0002268",
+    "label": "dyspepsia"
+  },
+  "D004485": {
+    "id": "MONDO:0002406",
+    "label": "dermatitis"
+  },
+  "D004715": {
+    "id": "MONDO:0005133",
+    "label": "endometriosis"
+  },
+  "D004827": {
+    "id": "MONDO:0005027",
+    "label": "epilepsy"
+  },
+  "D004927": {
+    "id": "MONDO:0020920",
+    "label": "escherichia coli infection"
+  },
+  "D004938": {
+    "id": "MONDO:0021355",
+    "label": "neoplasm of esophagus"
+  },
+  "D004941": {
+    "id": "MONDO:0001409",
+    "label": "esophagitis"
+  },
+  "D005235": {
+    "id": "MONDO:0021104",
+    "label": "alcoholic fatty liver disease"
+  },
+  "D005356": {
+    "id": "MONDO:0005546",
+    "label": "fibromyalgia"
+  },
+  "D005414": {
+    "id": "HP:0033589",
+    "label": "Flatulence"
+  },
+  "D005512": {
+    "id": "MONDO:0700226",
+    "label": "food allergy"
+  },
+  "D005756": {
+    "id": "MONDO:0004966",
+    "label": "gastritis"
+  },
+  "D005759": {
+    "id": "MONDO:0002269",
+    "label": "gastroenteritis"
+  },
+  "D005764": {
+    "id": "MONDO:0007186",
+    "label": "gastroesophageal reflux disease"
+  },
+  "D005767": {
+    "id": "MONDO:0004335",
+    "label": "digestive system disorder"
+  },
+  "D005910": {
+    "id": "MONDO:0021042",
+    "label": "glioma"
+  },
+  "D005922": {
+    "id": "MONDO:0005342",
+    "label": "IgA glomerulonephritis"
+  },
+  "D006008": {
+    "id": "MONDO:0002412",
+    "label": "disorder of glycogen metabolism"
+  },
+  "D006073": {
+    "id": "MONDO:0005393",
+    "label": "gout"
+  },
+  "D006111": {
+    "id": "MONDO:0005364",
+    "label": "Graves disease"
+  },
+  "D006130": {
+    "id": "MONDO:0015514",
+    "label": "hereditary endocrine growth disease"
+  },
+  "D006232": {
+    "id": "MONDO:0005779",
+    "label": "hand, foot and mouth disease"
+  },
+  "D006258": {
+    "id": "MONDO:0005586",
+    "label": "head and neck neoplasm"
+  },
+  "D006373": {
+    "id": "MONDO:0004664",
+    "label": "helminthiasis"
+  },
+  "D006392": {
+    "id": "MONDO:0003155",
+    "label": "cavernous hemangioma"
+  },
+  "D006501": {
+    "id": "MONDO:0001711",
+    "label": "hepatic encephalopathy"
+  },
+  "D006519": {
+    "id": "MONDO:0001505",
+    "label": "alcoholic hepatitis"
+  },
+  "D006525": {
+    "id": "MONDO:0006011",
+    "label": "viral hepatitis"
+  },
+  "D006526": {
+    "id": "MONDO:0005231",
+    "label": "hepatitis C virus infection"
+  },
+  "D006527": {
+    "id": "MONDO:0010200",
+    "label": "Wilson disease"
+  },
+  "D006528": {
+    "id": "MONDO:0007256",
+    "label": "hepatocellular carcinoma"
+  },
+  "D006937": {
+    "id": "HP:0003124",
+    "label": "Hypercholesterolemia"
+  },
+  "D006943": {
+    "id": "MONDO:0002909",
+    "label": "hyperglycemia"
+  },
+  "D006973": {
+    "id": "MONDO:0005044",
+    "label": "hypertensive disorder"
+  },
+  "D007037": {
+    "id": "MONDO:0005420",
+    "label": "hypothyroidism"
+  },
+  "D007251": {
+    "id": "MONDO:0005812",
+    "label": "influenza"
+  },
+  "D007319": {
+    "id": "MONDO:0013600",
+    "label": "insomnia"
+  },
+  "D007417": {
+    "id": "MONDO:0005288",
+    "label": "intestinal polyp"
+  },
+  "D007418": {
+    "id": "MONDO:0002803",
+    "label": "intestinal pseudo-obstruction"
+  },
+  "D007562": {
+    "id": "MONDO:0005357",
+    "label": "Creutzfeldt Jacob disease"
+  },
+  "D007567": {
+    "id": "HP:0006579",
+    "label": "Prolonged neonatal jaundice"
+  },
+  "D007627": {
+    "id": "MONDO:0005348",
+    "label": "keloid"
+  },
+  "D007674": {
+    "id": "MONDO:0005240",
+    "label": "kidney disorder"
+  },
+  "D007676": {
+    "id": "MONDO:0005300",
+    "label": "chronic kidney disease"
+  },
+  "D007938": {
+    "id": "MONDO:0005059",
+    "label": "leukemia"
+  },
+  "D008103": {
+    "id": "MONDO:0005155",
+    "label": "cirrhosis of liver"
+  },
+  "D008104": {
+    "id": "MONDO:0006644",
+    "label": "alcoholic liver cirrhosis"
+  },
+  "D008107": {
+    "id": "MONDO:0005154",
+    "label": "liver disorder"
+  },
+  "D008108": {
+    "id": "MONDO:0043693",
+    "label": "alcoholic liver diseases"
+  },
+  "D008113": {
+    "id": "MONDO:0024477",
+    "label": "liver and intrahepatic bile duct neoplasm"
+  },
+  "D008175": {
+    "id": "MONDO:0021117",
+    "label": "lung neoplasm"
+  },
+  "D008180": {
+    "id": "MONDO:0007915",
+    "label": "systemic lupus erythematosus"
+  },
+  "D008268": {
+    "id": "MONDO:0003004",
+    "label": "macular degeneration"
+  },
+  "D008288": {
+    "id": "MONDO:0005136",
+    "label": "malaria"
+  },
+  "D008413": {
+    "id": "MONDO:0006849",
+    "label": "mastitis"
+  },
+  "D008579": {
+    "id": "MONDO:0016642",
+    "label": "meningioma"
+  },
+  "D009072": {
+    "id": "MONDO:0016820",
+    "label": "Moyamoya disease"
+  },
+  "D009080": {
+    "id": "MONDO:0012727",
+    "label": "mucocutaneous lymph node syndrome"
+  },
+  "D009103": {
+    "id": "MONDO:0005301",
+    "label": "multiple sclerosis"
+  },
+  "D009157": {
+    "id": "MONDO:0009688",
+    "label": "myasthenia gravis"
+  },
+  "D009190": {
+    "id": "MONDO:0018881",
+    "label": "myelodysplastic syndrome"
+  },
+  "D009220": {
+    "id": "MONDO:0021167",
+    "label": "myositis disease"
+  },
+  "D009290": {
+    "id": "MONDO:0021107",
+    "label": "narcolepsy"
+  },
+  "D009404": {
+    "id": "MONDO:0005377",
+    "label": "nephrotic syndrome"
+  },
+  "D009422": {
+    "id": "MONDO:0005071",
+    "label": "nervous system disorder"
+  },
+  "D009447": {
+    "id": "MONDO:0005072",
+    "label": "neuroblastoma"
+  },
+  "D009471": {
+    "id": "MONDO:0019100",
+    "label": "neuromyelitis optica"
+  },
+  "D009765": {
+    "id": "MONDO:0011122",
+    "label": "obesity disorder"
+  },
+  "D009771": {
+    "id": "MONDO:0008114",
+    "label": "obsessive-compulsive disorder"
+  },
+  "D010003": {
+    "id": "MONDO:0005178",
+    "label": "osteoarthritis"
+  },
+  "D010024": {
+    "id": "MONDO:0005298",
+    "label": "osteoporosis"
+  },
+  "D010051": {
+    "id": "MONDO:0008170",
+    "label": "ovarian cancer"
+  },
+  "D010190": {
+    "id": "MONDO:0021040",
+    "label": "pancreatic neoplasm"
+  },
+  "D010195": {
+    "id": "MONDO:0004982",
+    "label": "pancreatitis"
+  },
+  "D010300": {
+    "id": "MONDO:0005180",
+    "label": "Parkinson disease"
+  },
+  "D010437": {
+    "id": "MONDO:0004247",
+    "label": "peptic ulcer disease"
+  },
+  "D010518": {
+    "id": "MONDO:0005076",
+    "label": "periodontitis"
+  },
+  "D010580": {
+    "id": "MONDO:0008501",
+    "label": "Sturge-Weber syndrome"
+  },
+  "D010911": {
+    "id": "MONDO:0017611",
+    "label": "pituitary tumor"
+  },
+  "D011014": {
+    "id": "MONDO:0005249",
+    "label": "pneumonia"
+  },
+  "D011019": {
+    "id": "MONDO:0005867",
+    "label": "Mycoplasma pneumoniae pneumonia"
+  },
+  "D011085": {
+    "id": "MONDO:0008487",
+    "label": "polycystic ovary syndrome"
+  },
+  "D011087": {
+    "id": "MONDO:0009891",
+    "label": "acquired polycythemia vera"
+  },
+  "D011125": {
+    "id": "HP:0005227",
+    "label": "Adenomatous colonic polyposis"
+  },
+  "D011218": {
+    "id": "MONDO:0008300",
+    "label": "Prader-Willi syndrome"
+  },
+  "D011225": {
+    "id": "MONDO:0005081",
+    "label": "preeclampsia"
+  },
+  "D011236": {
+    "id": "MONDO:0006920",
+    "label": "prediabetes syndrome"
+  },
+  "D011293": {
+    "id": "MONDO:0004169",
+    "label": "premenstrual tension"
+  },
+  "D011471": {
+    "id": "MONDO:0008315",
+    "label": "prostate cancer"
+  },
+  "D011565": {
+    "id": "MONDO:0005083",
+    "label": "psoriasis"
+  },
+  "D011618": {
+    "id": "MONDO:0005485",
+    "label": "psychotic disorder"
+  },
+  "D011629": {
+    "id": "MONDO:0000088",
+    "label": "precocious puberty"
+  },
+  "D011695": {
+    "id": "MONDO:0019167",
+    "label": "immunoglobulin A vasculitis"
+  },
+  "D012004": {
+    "id": "MONDO:0002165",
+    "label": "rectal neoplasm"
+  },
+  "D012131": {
+    "id": "MONDO:0021113",
+    "label": "respiratory failure"
+  },
+  "D012141": {
+    "id": "MONDO:0024355",
+    "label": "respiratory tract infectious disorder"
+  },
+  "D012170": {
+    "id": "MONDO:0006951",
+    "label": "retinal vein occlusion"
+  },
+  "D012415": {
+    "id": "MONDO:0019188",
+    "label": "Rubinstein-Taybi syndrome"
+  },
+  "D012553": {
+    "id": "MONDO:0006001",
+    "label": "urinary schistosomiasis"
+  },
+  "D012554": {
+    "id": "MONDO:0044344",
+    "label": "Schistosoma japonicum infectious disease"
+  },
+  "D012559": {
+    "id": "MONDO:0005090",
+    "label": "schizophrenia"
+  },
+  "D012772": {
+    "id": "MONDO:0001881",
+    "label": "toxic shock syndrome"
+  },
+  "D012778": {
+    "id": "MONDO:0015183",
+    "label": "short bowel syndrome"
+  },
+  "D012859": {
+    "id": "MONDO:0010030",
+    "label": "Sjogren syndrome"
+  },
+  "D013119": {
+    "id": "MONDO:0043797",
+    "label": "spinal cord injury"
+  },
+  "D013167": {
+    "id": "MONDO:0005306",
+    "label": "ankylosing spondylitis"
+  },
+  "D013274": {
+    "id": "MONDO:0021085",
+    "label": "gastric neoplasm"
+  },
+  "D013920": {
+    "id": "MONDO:0005029",
+    "label": "essential thrombocythemia"
+  },
+  "D013967": {
+    "id": "MONDO:0005623",
+    "label": "autoimmune thyroid disease"
+  },
+  "D013981": {
+    "id": "MONDO:0002420",
+    "label": "tic disorder"
+  },
+  "D014376": {
+    "id": "MONDO:0018076",
+    "label": "tuberculosis"
+  },
+  "D014385": {
+    "id": "MONDO:0005768",
+    "label": "gastrointestinal tuberculosis"
+  },
+  "D014397": {
+    "id": "MONDO:0006052",
+    "label": "pulmonary tuberculosis"
+  },
+  "D014435": {
+    "id": "MONDO:0005619",
+    "label": "typhoid fever"
+  },
+  "D014511": {
+    "id": "MONDO:0007008",
+    "label": "uremia"
+  },
+  "D014552": {
+    "id": "MONDO:0100338",
+    "label": "urinary tract infection"
+  },
+  "D015179": {
+    "id": "MONDO:0005335",
+    "label": "colorectal neoplasm"
+  },
+  "D015209": {
+    "id": "MONDO:0018646",
+    "label": "sclerosing cholangitis"
+  },
+  "D015212": {
+    "id": "MONDO:0005265",
+    "label": "inflammatory bowel disease"
+  },
+  "D015228": {
+    "id": "MONDO:0005347",
+    "label": "hypertriglyceridemia"
+  },
+  "D015267": {
+    "id": "MONDO:0015943",
+    "label": "eosinophilic granulomatosis with polyangiitis"
+  },
+  "D015352": {
+    "id": "MONDO:0006733",
+    "label": "dry eye syndrome"
+  },
+  "D015356": {
+    "id": "MONDO:0006948",
+    "label": "retinal artery occlusion"
+  },
+  "D015423": {
+    "id": "MONDO:0001718",
+    "label": "scleritis"
+  },
+  "D015451": {
+    "id": "MONDO:0004948",
+    "label": "B-cell chronic lymphocytic leukemia"
+  },
+  "D015470": {
+    "id": "MONDO:0018874",
+    "label": "acute myeloid leukemia"
+  },
+  "D015518": {
+    "id": "MONDO:0010726",
+    "label": "Rett syndrome"
+  },
+  "D015535": {
+    "id": "MONDO:0011849",
+    "label": "psoriatic arthritis"
+  },
+  "D015658": {
+    "id": "MONDO:0005109",
+    "label": "HIV infectious disease"
+  },
+  "D015663": {
+    "id": "MONDO:0008159",
+    "label": "postmenopausal osteoporosis"
+  },
+  "D015673": {
+    "id": "MONDO:0005404",
+    "label": "myalgic encephalomeyelitis/chronic fatigue syndrome"
+  },
+  "D015746": {
+    "id": "HP:0002027",
+    "label": "Abdominal pain"
+  },
+  "D016108": {
+    "id": "MONDO:0006543",
+    "label": "epidermolysis bullosa dystrophica"
+  },
+  "D016403": {
+    "id": "MONDO:0018905",
+    "label": "diffuse large B-cell lymphoma"
+  },
+  "D016410": {
+    "id": "MONDO:0000607",
+    "label": "primary cutaneous T-cell non-Hodgkin lymphoma"
+  },
+  "D016481": {
+    "id": "MONDO:0006781",
+    "label": "Helicobacter pylori infectious disease"
+  },
+  "D016553": {
+    "id": "MONDO:0008558",
+    "label": "autoimmune thrombocytopenic purpura"
+  },
+  "D016640": {
+    "id": "MONDO:0005406",
+    "label": "gestational diabetes"
+  },
+  "D016884": {
+    "id": "MONDO:0017278",
+    "label": "autoimmune polyendocrinopathy"
+  },
+  "D016889": {
+    "id": "MONDO:0021251",
+    "label": "endometrium neoplasm"
+  },
+  "D017091": {
+    "id": "MONDO:0000701",
+    "label": "ischemic colitis"
+  },
+  "D017098": {
+    "id": "MONDO:0001341",
+    "label": "selective IgA deficiency disease"
+  },
+  "D017250": {
+    "id": "MONDO:0005687",
+    "label": "Caliciviridae infectious disease"
+  },
+  "D017497": {
+    "id": "MONDO:0006559",
+    "label": "hidradenitis suppurativa"
+  },
+  "D017544": {
+    "id": "MONDO:0005350",
+    "label": "abdominal aortic aneurysm"
+  },
+  "D018149": {
+    "id": "MONDO:0001076",
+    "label": "glucose intolerance"
+  },
+  "D018281": {
+    "id": "MONDO:0019087",
+    "label": "cholangiocarcinoma"
+  },
+  "D018357": {
+    "id": "MONDO:0001577",
+    "label": "respiratory syncytial virus infectious disease"
+  },
+  "D018459": {
+    "id": "MONDO:0007899",
+    "label": "lichen sclerosus et atrophicus"
+  },
+  "D018980": {
+    "id": "MONDO:0008678",
+    "label": "Williams syndrome"
+  },
+  "D019052": {
+    "id": "MONDO:0005929",
+    "label": "postpartum depression"
+  },
+  "D019102": {
+    "id": "HP:0001518",
+    "label": "Small for gestational age"
+  },
+  "D019337": {
+    "id": "MONDO:0002334",
+    "label": "hematopoietic and lymphoid system neoplasm"
+  },
+  "D019578": {
+    "id": "MONDO:0007803",
+    "label": "multiple system atrophy"
+  },
+  "D019693": {
+    "id": "MONDO:0016264",
+    "label": "autoimmune hepatitis"
+  },
+  "D019694": {
+    "id": "MONDO:0005366",
+    "label": "chronic hepatitis B virus infection"
+  },
+  "D019966": {
+    "id": "MONDO:0002494",
+    "label": "substance-related disorder"
+  },
+  "D020181": {
+    "id": "MONDO:0007147",
+    "label": "obstructive sleep apnea syndrome"
+  },
+  "D020274": {
+    "id": "MONDO:0002977",
+    "label": "autoimmune disorder of the nervous system"
+  },
+  "D020277": {
+    "id": "MONDO:0006702",
+    "label": "chronic inflammatory demyelinating polyradiculoneuropathy"
+  },
+  "D020345": {
+    "id": "MONDO:0005313",
+    "label": "necrotizing enterocolitis"
+  },
+  "D020521": {
+    "id": "MONDO:0005098",
+    "label": "stroke disorder"
+  },
+  "D020529": {
+    "id": "MONDO:0005314",
+    "label": "relapsing-remitting multiple sclerosis"
+  },
+  "D020918": {
+    "id": "MONDO:0019369",
+    "label": "complex regional pain syndrome"
+  },
+  "D020936": {
+    "id": "MONDO:0016027",
+    "label": "benign neonatal seizures"
+  },
+  "D024821": {
+    "id": "MONDO:0011565",
+    "label": "metabolic syndrome X"
+  },
+  "D025241": {
+    "id": "MONDO:0001434",
+    "label": "inflammatory spondylopathy"
+  },
+  "D042882": {
+    "id": "MONDO:0005346",
+    "label": "gallstones"
+  },
+  "D043183": {
+    "id": "MONDO:0005052",
+    "label": "irritable bowel syndrome"
+  },
+  "D044342": {
+    "id": "MONDO:0005137",
+    "label": "nutritional disorder"
+  },
+  "D046110": {
+    "id": "MONDO:0024664",
+    "label": "hypertension, pregnancy-induced"
+  },
+  "D046729": {
+    "id": "MONDO:0000703",
+    "label": "collagenous colitis"
+  },
+  "D046730": {
+    "id": "MONDO:0000704",
+    "label": "lymphocytic colitis"
+  },
+  "D047748": {
+    "id": "MONDO:0020528",
+    "label": "ACTH-dependent Cushing syndrome"
+  },
+  "D047928": {
+    "id": "HP:0001622",
+    "label": "Premature birth"
+  },
+  "D049912": {
+    "id": "MONDO:0006238",
+    "label": "growth hormone-producing pituitary gland adenoma"
+  },
+  "D049970": {
+    "id": "MONDO:0001509",
+    "label": "endocrine exophthalmos"
+  },
+  "D050177": {
+    "id": "HP:0025502",
+    "label": "Overweight"
+  },
+  "D050500": {
+    "id": "MONDO:0005003",
+    "label": "chronic pancreatitis"
+  },
+  "D051436": {
+    "id": "MONDO:0024327",
+    "label": "chronic renal failure syndrome"
+  },
+  "D051474": {
+    "id": "MONDO:0041052",
+    "label": "postherpetic neuralgia"
+  },
+  "D052878": {
+    "id": "MONDO:0024647",
+    "label": "urolithiasis"
+  },
+  "D054058": {
+    "id": "MONDO:0005542",
+    "label": "acute coronary syndrome"
+  },
+  "D055985": {
+    "id": "MONDO:0040753",
+    "label": "latent tuberculosis infection"
+  },
+  "D056833": {
+    "id": "MONDO:0018616",
+    "label": "central serous chorioretinopathy"
+  },
+  "D058495": {
+    "id": "MONDO:0019349",
+    "label": "Sotos syndrome"
+  },
+  "D059409": {
+    "id": "HP:0032325",
+    "label": "Lacunar stroke"
+  },
+  "D060426": {
+    "id": "MONDO:0021081",
+    "label": "anti-NMDA receptor encephalitis"
+  },
+  "D060825": {
+    "id": "HP:0100543",
+    "label": "Cognitive impairment"
+  },
+  "D065626": {
+    "id": "MONDO:0013209",
+    "label": "metabolic dysfunction-associated steatotic liver disease"
+  },
+  "D065631": {
+    "id": "MONDO:0011786",
+    "label": "allergic rhinitis"
+  }
+}

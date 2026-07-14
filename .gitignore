@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (raw dump, extracted/transformed Parquet -- regenerated via extract/ and transform/ scripts)
+data/raw/
+data/extracted/
+data/transformed/
+
+# OS
+.DS_Store
+
+# Claude Code local state
+.claude/

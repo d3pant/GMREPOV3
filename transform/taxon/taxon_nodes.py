@@ -76,18 +76,25 @@ for taxid, info in resolved.items():
         }
     )
 
-# single shared placeholder node for the -1 "unclassified" sentinel
-rows.append(
-    {
-        "id": f"NCBITaxon:{UNCLASSIFIED_TAXID}",
-        "taxid": UNCLASSIFIED_TAXID,
-        "name": "Unclassified",
-        "parent_taxid": None,
-        "lineage": None,
-        "rank": None,
-        "category": "biolink:OrganismTaxon",
-    }
-)
+# -1 "unclassified" sentinel: one node per rank, not one shared node. GMrepo
+# reports the unclassified fraction separately for genus-level and species-level
+# calling (each rank's abundances independently sum to ~100% per run, confirmed
+# in EDA) -- collapsing both into a single node made every (run, -1) edge id
+# collide across the two ranks. Rank here comes directly from
+# species_abundance.taxon_rank_level (the source table), NOT Biothings, since
+# Biothings correctly has no entry for a sentinel id.
+for rank in ["genus", "species"]:
+    rows.append(
+        {
+            "id": f"NCBITaxon:{UNCLASSIFIED_TAXID}_{rank}",
+            "taxid": UNCLASSIFIED_TAXID,
+            "name": f"Unclassified ({rank})",
+            "parent_taxid": None,
+            "lineage": None,
+            "rank": rank,
+            "category": "biolink:OrganismTaxon",
+        }
+    )
 
 taxon_df = pd.DataFrame(rows)
 taxon_df.to_parquet(OUT_PATH, index=False)

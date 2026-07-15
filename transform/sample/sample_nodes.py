@@ -49,6 +49,7 @@ sample_df["project_id"] = project_lists
 sample_df["original_sample_description"] = desc_lists
 
 sample_df = sample_df.reset_index()
+sample_df = sample_df.rename(columns={"second_sample_id": "id"})
 
 sample_df.to_parquet(OUT_PATH, index=False)
 

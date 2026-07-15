@@ -6,10 +6,11 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data (raw dump, extracted/transformed Parquet -- regenerated via extract/ and transform/ scripts)
+# Data (raw dump, extracted/transformed Parquet, loaded CSVs -- regenerated via extract/, transform/, load/ scripts)
 data/raw/
 data/extracted/
 data/transformed/
+data/loaded/
 
 # OS
 .DS_Store

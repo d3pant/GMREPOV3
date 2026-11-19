@@ -44,8 +44,12 @@ for row in merged.itertuples(index=False):
             "id": f"{row.second_sample_id}_{row.run_id}_HAS_TAXON_{id_suffix}",
             "subject": row.second_sample_id,
             "object": taxon_curie,
+            # category stays unprefixed here deliberately -- only `predicate` is
+            # standardized on the biolink: prefix; see PRIMEDB's has_taxon_edge.py.
             "category": "MaterialSampleToOrganismTaxonAssociation",
-            "predicate": "has_taxon",
+            # biolink:-prefixed to match has_phenotype's predicate above and
+            # PRIMEDB's, so the merged graph carries one predicate style.
+            "predicate": "biolink:has_taxon",
             "BioProject": row.project_id,
             "sra_run_id": row.run_id,
             "relative_abundance": row.relative_abundance,

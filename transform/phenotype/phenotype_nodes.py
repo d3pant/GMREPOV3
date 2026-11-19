@@ -3,38 +3,23 @@ from collections import Counter
 from pathlib import Path
 
 import pandas as pd
-from sqlalchemy import create_engine
 
-RESOLUTION_PATH = Path(__file__).parent / "data/nodenorm_resolution.json"
+CODE_TO_ID_PATH = Path(__file__).parent / "data/mesh_code_to_id.json"
 PHENOTYPES_PARQUET = Path(__file__).parent.parent.parent / "data/extracted/project_to_run_id_to_phenotypes.parquet"
+MESH_PARQUET = Path(__file__).parent.parent.parent / "data/extracted/mesh_data.parquet"
 OUT_PATH = Path(__file__).parent.parent.parent / "data/transformed/nodes/phenotype.parquet"
 
-engine = create_engine("mysql+pymysql://root:gmrepo@127.0.0.1:3307/gmrepo")
-
-# 262 codes resolved directly by NCBI Node Normalizer to MONDO/HP (see project memory
-# for full resolution methodology). Precomputed once; not re-queried here.
-with open(RESOLUTION_PATH) as f:
-    resolved = json.load(f)
-
-# 4 hardcoded overrides -- codes Node Normalizer couldn't resolve automatically, but
-# which do have a real MONDO/HP concept once manually searched. Health and Healthy
-# Aging intentionally collapse onto the same node (HP:0032322) -- neither is a
-# disease, and no aging-specific HPO/MONDO term exists.
-HARDCODED_OVERRIDES = {
-    "D006262": {"id": "HP:0032322", "label": "Healthy"},
-    "D000073656": {"id": "HP:0032322", "label": "Healthy"},
-    "D007234": {"id": "HP:0001622", "label": "Premature birth"},
-    "D000067011": {"id": "MONDO:0001371", "label": "protein-energy malnutrition"},
-}
-
-resolved.update(HARDCODED_OVERRIDES)
+# mesh_code -> MONDO/HP CURIE, produced by resolve_phenotypes.py (live Node Normalizer
+# lookups plus the manual overrides). Run that first; this script does no resolution.
+with open(CODE_TO_ID_PATH) as f:
+    code_to_id = json.load(f)
 
 # original_name: mesh_data.term is the authoritative source. A handful of codes
 # (newer disease classifications) aren't in mesh_data at all -- fall back to the
 # majority-vote term text from the phenotypes JSON column for those.
-codes = list(resolved.keys())
-placeholders = ",".join(f"'{c}'" for c in codes)
-mesh_df = pd.read_sql(f"SELECT uid, term FROM mesh_data WHERE uid IN ({placeholders})", engine)
+codes = set(code_to_id)
+mesh_df = pd.read_parquet(MESH_PARQUET, columns=["uid", "term"])
+mesh_df = mesh_df[mesh_df["uid"].isin(codes)]
 mesh_lookup = dict(zip(mesh_df["uid"], mesh_df["term"]))
 
 phenotypes_df = pd.read_parquet(PHENOTYPES_PARQUET)
@@ -62,8 +47,7 @@ def original_name_for(code: str) -> str:
 # original_name from whichever mesh code was encountered first.
 curie_to_codes = {}
 curie_to_name = {}
-for code, info in resolved.items():
-    curie = info["id"]
+for code, curie in code_to_id.items():
     curie_to_codes.setdefault(curie, []).append(code)
     if curie not in curie_to_name:
         curie_to_name[curie] = original_name_for(code)
@@ -86,14 +70,6 @@ print(f"wrote {len(phenotype_df)} Phenotype nodes to {OUT_PATH}")
 missing_name = phenotype_df["original_name"].isnull().sum()
 if missing_name:
     print(f"WARNING: {missing_name} nodes have no original_name resolved")
-
-# mesh_code -> id lookup, needed later for building HAS_PHENOTYPE edges. Kept
-# separate from the node table, which should only ever contain node identity/properties.
-CODE_TO_ID_PATH = Path(__file__).parent / "data/mesh_code_to_id.json"
-code_to_id = {code: info["id"] for code, info in resolved.items()}
-with open(CODE_TO_ID_PATH, "w") as f:
-    json.dump(code_to_id, f, indent=2)
-print(f"wrote {len(code_to_id)} mesh_code -> id mappings to {CODE_TO_ID_PATH}")
 
 collapsed = {curie: codes for curie, codes in curie_to_codes.items() if len(codes) > 1}
 if collapsed:

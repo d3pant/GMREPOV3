@@ -34,7 +34,12 @@ for row in clean.itertuples(index=False):
     numeric_id = row.phenotype_curie.split(":")[1]
     rows.append(
         {
-            "id": f"{row.second_sample_id}_has_phenotype_{numeric_id}",
+            # HAS_PHENOTYPE uppercase, matching has_taxon_edge.py's own id infix and
+            # PRIMEDB's. This casing is load-bearing at merge time: PRIMEDB emits the
+            # same 125 (BioSample, phenotype CURIE) edges this pipeline does, and the
+            # merge dedups by id -- a lowercase infix here stops those colliding and
+            # silently double-loads all 125 into the merged graph.
+            "id": f"{row.second_sample_id}_HAS_PHENOTYPE_{numeric_id}",
             "subject": row.second_sample_id,
             "object": row.phenotype_curie,
             "category": "biolink:MaterialSampleToDiseaseOrPhenotypicFeatureAssociation",

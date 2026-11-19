@@ -12,6 +12,15 @@ data/extracted/
 data/transformed/
 data/loaded/
 
+# Backup copy of an earlier pipeline run
+data_original/
+
+# BioThings hub state (downloaded dump, hub database, logs), created wherever biothings-cli runs
+.biothings_hub/
+
+# Provenance file written by resolve_phenotypes.py on every run
+transform/phenotype/data/nodenorm_resolution.meta.json
+
 # OS
 .DS_Store
 

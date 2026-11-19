@@ -28,8 +28,8 @@
     "label": "Posterior blepharitis"
   },
   "D000083242": {
-    "id": "HP:0002140",
-    "label": "Ischemic stroke"
+    "id": "MONDO:1060198",
+    "label": "ischemic stroke"
   },
   "D000086382": {
     "id": "MONDO:0100096",
@@ -76,8 +76,8 @@
     "label": "amyotrophic lateral sclerosis"
   },
   "D000855": {
-    "id": "MONDO:0005351",
-    "label": "anorexia nervosa"
+    "id": "HP:0002039",
+    "label": "Anorexia"
   },
   "D000856": {
     "id": "MONDO:0005351",
@@ -288,8 +288,8 @@
     "label": "dyspepsia"
   },
   "D004485": {
-    "id": "MONDO:0002406",
-    "label": "dermatitis"
+    "id": "HP:0000964",
+    "label": "Eczematoid dermatitis"
   },
   "D004715": {
     "id": "MONDO:0005133",
@@ -477,7 +477,7 @@
   },
   "D008108": {
     "id": "MONDO:0043693",
-    "label": "alcoholic liver diseases"
+    "label": "alcoholic liver disease"
   },
   "D008113": {
     "id": "MONDO:0024477",
@@ -513,7 +513,7 @@
   },
   "D009080": {
     "id": "MONDO:0012727",
-    "label": "mucocutaneous lymph node syndrome"
+    "label": "Kawasaki disease"
   },
   "D009103": {
     "id": "MONDO:0005301",
@@ -887,10 +887,6 @@
     "id": "MONDO:0005929",
     "label": "postpartum depression"
   },
-  "D019102": {
-    "id": "HP:0001518",
-    "label": "Small for gestational age"
-  },
   "D019337": {
     "id": "MONDO:0002334",
     "label": "hematopoietic and lymphoid system neoplasm"
@@ -990,10 +986,6 @@
   "D049970": {
     "id": "MONDO:0001509",
     "label": "endocrine exophthalmos"
-  },
-  "D050177": {
-    "id": "HP:0025502",
-    "label": "Overweight"
   },
   "D050500": {
     "id": "MONDO:0005003",

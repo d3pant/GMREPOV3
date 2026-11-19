@@ -1,0 +1,24 @@
+{
+  "version": "0.1",
+  "display_name": "GMrepo",
+  "__metadata__": {
+    "url": "https://gmrepo.humangut.info/",
+    "description": "GMrepo human gut microbiome samples with their phenotypes (MONDO/HP) and species-level relative abundance, as sample-taxon (HAS_TAXON) and sample-phenotype (HAS_PHENOTYPE) associations"
+  },
+  "requires": [
+    "pandas",
+    "pyarrow",
+    "requests",
+    "biothings_client"
+  ],
+  "dumper": {
+    "data_url": [
+      "https://gmrepo.humangut.info/Downloads/SQLDumps/gmrepo.sql.gz"
+    ],
+    "uncompress": false
+  },
+  "uploader": {
+    "parser": "parser:load_data",
+    "on_duplicates": "error"
+  }
+}

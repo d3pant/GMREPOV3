@@ -5,7 +5,7 @@
 #   run_etl.sh                    # 2. this: streams the dump into data/extracted/, then runs
 #                                 #    the transforms; results land in data/transformed/
 #
-# (the BioThings parser, plugin/gmrepo/parser.py, does both itself.)
+# (the BioThings parser, parser.py, does both itself.)
 #
 # The scripts read and write relative to where they live (data/extracted,
 # data/transformed), so this overwrites this repo's data/ -- which is why it refuses to run

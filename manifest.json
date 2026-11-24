@@ -15,7 +15,8 @@
     "data_url": [
       "https://gmrepo.humangut.info/Downloads/SQLDumps/gmrepo.sql.gz"
     ],
-    "uncompress": false
+    "uncompress": false,
+    "release": "versions:get_release"
   },
   "uploader": {
     "parser": "parser:load_data",

@@ -13,7 +13,7 @@ Input in data_folder (written by the dumper, named from the download URL):
                        extract/extract_from_dump.py reads it with zipfile
 data_folder must not be inside the repo's own data/raw (stage_inputs.sh wipes that folder).
 
-This module expects to live inside the GMrepo repo checkout (plugin/gmrepo/) so it can find
+This module expects to live at the root of the GMrepo repo checkout so it can find
 the scripts; set GMREPO_REPO to point at the checkout otherwise. The ETL's own
 dependencies (pandas, pyarrow, requests, biothings_client) must be installed in the
 interpreter running the hub.
@@ -41,7 +41,7 @@ import pyarrow.parquet as pq
 
 log = logging.getLogger("gmrepo_parser")
 
-REPO = Path(os.environ.get("GMREPO_REPO") or Path(__file__).resolve().parents[2])
+REPO = Path(os.environ.get("GMREPO_REPO") or Path(__file__).resolve().parent)
 STAGE_SCRIPT = REPO / "stage_inputs.sh"
 ETL_SCRIPT = REPO / "run_etl.sh"
 BATCH_ROWS = 50_000
